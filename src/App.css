@@ -1,0 +1,213 @@
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-container {
+
+  width: 90%;
+  max-width: 950px;
+
+  background: rgba(255, 255, 255, 0.95);
+
+  padding: 25px;
+
+  border-radius: 25px;
+
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+
+  text-align: center;
+}
+
+h1 {
+
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  color: #222;
+
+  font-size: 48px;
+}
+
+h3 {
+
+  margin-top: 25px;
+  margin-bottom: 15px;
+
+  color: #444;
+}
+
+.search-box {
+
+  display: flex;
+  justify-content: center;
+
+  gap: 12px;
+
+  margin-bottom: 20px;
+}
+
+input {
+
+  width: 280px;
+
+  padding: 12px;
+
+  border-radius: 12px;
+
+  border: 1px solid #ccc;
+
+  outline: none;
+
+  font-size: 16px;
+}
+
+button {
+
+  padding: 12px 18px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background: #0077ff;
+
+  color: white;
+
+  font-size: 15px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+button:hover {
+
+  background: #005edb;
+}
+
+.error {
+
+  color: red;
+
+  margin-bottom: 10px;
+}
+
+.weather-card {
+
+  margin-top: 10px;
+
+  color: #333;
+}
+
+.weather-card h2 {
+
+  margin: 5px 0;
+}
+
+.weather-card p {
+
+  margin: 6px 0;
+}
+
+.weather-icon {
+
+  width: 80px;
+  height: 80px;
+}
+
+.forecast-container {
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 8px;
+
+  flex-wrap: nowrap;
+
+  margin-top: 10px;
+
+  overflow-x: auto;
+
+  padding-bottom: 10px;
+}
+
+.forecast-card {
+
+  background: #f3f3f3;
+
+  padding: 8px;
+
+  border-radius: 12px;
+
+  width: 70px;
+
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+
+  flex-shrink: 0;
+}
+
+.forecast-card img {
+
+  width: 35px;
+  height: 35px;
+}
+
+.forecast-card p {
+
+  margin: 4px 0;
+
+  font-size: 12px;
+}
+
+ul {
+
+  list-style: none;
+
+  padding: 0;
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 10px;
+
+  flex-wrap: wrap;
+}
+
+.history-item {
+
+  background: #0077ff;
+
+  color: white;
+
+  padding: 8px 14px;
+
+  border-radius: 20px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.history-item:hover {
+
+  background: #005edb;
+}
